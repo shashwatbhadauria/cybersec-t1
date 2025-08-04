@@ -1,0 +1,44 @@
+# Nmap 7.97 scan initiated Mon Aug  4 20:05:41 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN scan_results.txt 192.168.29.0/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0027s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: C4:95:4D:34:92:35 (Sercomm)
+
+Nmap scan report for 192.168.29.53
+Host is up (0.0064s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: 6C:E8:C6:FB:84:38 (Earda Technologies)
+
+Nmap scan report for 192.168.29.98
+Host is up (0.0075s latency).
+All 1000 scanned ports on 192.168.29.98 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1E:A8:91:20:B0:9D (Unknown)
+
+Nmap scan report for 192.168.29.170
+Host is up (0.0068s latency).
+All 1000 scanned ports on 192.168.29.170 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B2:E1:CE:6B:9D:71 (Unknown)
+
+Nmap scan report for 192.168.29.65
+Host is up (0.00075s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Aug  4 20:08:00 2025 -- 256 IP addresses (5 hosts up) scanned in 139.22 seconds
